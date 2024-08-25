@@ -1,0 +1,23 @@
+.lista-container {
+  padding: 20px;
+}
+
+.lista-title {
+  margin-bottom: 16px;
+}
+
+.lista-button {
+  margin-bottom: 16px;
+}
+
+.lista-card {
+  margin-bottom: 16px;
+}
+
+.lista-card-content {
+  padding: 16px;
+}
+
+.lista-card-content .MuiButton-containedSecondary {
+  margin-top: 8px;
+}
