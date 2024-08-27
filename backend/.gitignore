@@ -1,0 +1,28 @@
+# Node.js
+/node_modules
+/npm-debug.log*
+/yarn-error.log*
+
+# Archivos de entorno
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de bases de datos locales (si tienes datos de MongoDB locales)
+/data/db
+
+# Archivos del editor
+.vscode/
+.idea/
+.DS_Store
+
+# Archivos de sistema
+Thumbs.db
+
+# Salida de pruebas (si decides implementar)
+/coverage

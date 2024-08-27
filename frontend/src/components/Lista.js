@@ -62,10 +62,17 @@ const Lista = () => {
                     Ver Detalles
                   </Button>
                   <Button
+                    component={Link}
+                    to={`/update/${blog._id}`} // Enlace para actualizar
+                    variant="contained"
+                    style={{ backgroundColor: '#4caf50', color: 'white', marginTop: 8 }}
+                  >
+                    Editar
+                  </Button>
+                  <Button
                     onClick={() => handleDelete(blog._id)}
                     variant="contained"
-                    color="secondary"
-                    style={{ marginTop: 8 }}
+                    style={{ backgroundColor: '#f44336', color: 'white', marginTop: 8 }}
                   >
                     Eliminar
                   </Button>

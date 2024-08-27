@@ -18,6 +18,14 @@
   padding: 16px;
 }
 
-.lista-card-content .MuiButton-containedSecondary {
+.lista-edit-button {
+  background-color: #4caf50; /* Color verde para el botón de editar */
+  color: white;
+  margin-top: 8px;
+}
+
+.lista-delete-button {
+  background-color: #f44336; /* Color rojo para el botón de eliminar */
+  color: white;
   margin-top: 8px;
 }

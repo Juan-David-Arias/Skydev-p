@@ -6,12 +6,6 @@ const blogSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 
-const userSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  password: { type: String, required: true } // Corregir typo en 'passwork'
-});
-
 const Blog = mongoose.model('Blog', blogSchema);
-const User = mongoose.model('User', userSchema);
 
-module.exports = { Blog, User };
+module.exports = { Blog };
